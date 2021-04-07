@@ -1,0 +1,21 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(48, 207, 207);
+    background-color: rgb(210, 243, 243);
+    height: 200px;
+    width: 40%;
+    border: solid cyan 10px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    transition: 1s;
+}
+body{
+    background-color: rgb(174, 206, 200) ;
+}
+h1:hover{
+    transform: scale(1.4);
+}
