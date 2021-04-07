@@ -1,0 +1,102 @@
+/*NOSOTROS------------*/
+
+.block-detalle {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    justify-content: space-around;
+    margin: $rem;
+  }
+  
+  //container parrafo y titulo declarados arriba
+  
+  .fa-heart {
+    font-size: $rem * 4;
+    color: $colorPrincipal;
+    transition: 1s;
+  }
+  
+  .block-d {
+    background-color: $colorRecuadro;
+    margin-bottom: $rem;
+  }
+  .fa-heart:hover {
+    transform: rotate(360deg);
+  }
+  
+  .block__titulo--modificacion {
+    font-size: $rem * 2;
+    padding: $rem;
+    font-family: $fuenteEspecial;
+    background-image: url(/img/eventos.png);
+  }
+  .block-grid {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    width: 100%;
+    background-color: $colorRecuadro;
+    margin-bottom: $rem * 2;
+  }
+  .block-grid__staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 200px;
+  }
+  .block-grid__staff__img {
+    width: 30%;
+    border-radius: 100%;
+    transition: 1s;
+  }
+  .block-grid__staff__text {
+    display: flex;
+    justify-content: center;
+    padding: $rem;
+  }
+  .block__subtitulo {
+    padding: $rem;
+  }
+  .block-grid__staff__img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  ul{
+    padding: 0;
+}
+
+@media (min-width: 1200px){
+    .block-grid__staff__img {
+        width: 30%;
+    }
+}
+@media (max-width: 1024px) {
+    .block-detalle {
+        grid-template-columns: 25% 25% 25% 25%;
+      }
+    .block-grid__staff__img {
+        width: 50%;
+    }
+  }
+@media (max-width: 768px) {
+    .block-detalle {
+        grid-template-columns: 50% 50%;
+        margin: 0;
+      }
+    .block-grid__staff__img {
+        width: 75%;
+    }
+  }
+@media (max-width: 480px) {
+    .block-detalle {
+        grid-template-columns: 100%;
+      }
+      .block-grid__staff__img {
+        width: 100%;
+      }
+      .block-grid__staff__text{
+          text-align: center;
+      }
+      
+  }

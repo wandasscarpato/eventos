@@ -1,0 +1,33 @@
+.container-general{
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.container-detalle{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.container__parrafo{
+    padding: 0px 1rem;
+}
+.fa-heart{
+    font-size: 4rem;
+    color: #ee90a4;
+    transition: 1s;
+}
+.container-nosotros{
+    font-family:'Raleway', sans-serif;
+    justify-content: space-around;
+}
+.container-diferencias{
+    background-color: rgb(245, 245, 245);
+}
+.container__titulo{
+   text-align: center;
+}
+.fa-heart:hover{
+    transform: rotate(360deg);
+}

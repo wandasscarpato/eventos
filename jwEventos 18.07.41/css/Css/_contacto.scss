@@ -1,0 +1,120 @@
+/*contacto*/
+.block {
+    text-align: center;
+  }
+  .block__titulo {
+    padding-top: $rem;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .block__parrafo {
+    display: flex;
+    justify-content: center;
+    padding: 0 $rem * 4;
+    font-size: 0.9rem;
+  }
+  .block-form__botones--modificar,
+  input,
+  .block-form__select,
+  .block-form__datos-textarea {
+    border: $formatoBordes;
+    color: $colorSecundario;
+    padding: $rem/2;
+    font-size: $rem;
+    width: 95%;
+    margin-bottom: $rem;
+  }
+  
+  .block-form,
+  .block-form__select,
+  .input {
+    font-family: $fuentePrincipal;
+    font-size: $rem;
+  }
+  .block-form__botones--modificar {
+    width: 49%;
+    height: 40px;
+    display: inline-table;
+  }
+  .block-form__select {
+    width: 95%;
+  }
+  
+  .block-form,
+  .block-inferior {
+    width: 30%;
+    margin: 0px 35% 0px 35%;
+    padding: $rem;
+  }
+  
+  .block-inferior {
+    text-align: center;
+    background-color: $colorRecuadro;
+    margin-bottom: $rem;
+  }
+  
+  h5 {
+    color: $colorSecundario;
+  }
+  .block__telefonos,
+  .block__email {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+  }
+  .block__telefonos-telefono,
+  .block__email-email {
+    line-height: 2rem;
+    color: $colorPrincipal;
+  }
+  .input:hover {
+    background-color: $colorPrincipal;
+    color: $letrasHover;
+  }
+  .block__telefonos-telefono:hover,
+  .block__email-email:hover {
+    line-height: $rem * 2;
+    color: $colorSecundario;
+  }
+  input:hover,
+  textarea:hover {
+    background-color: $colorPrincipal;
+    color: $letrasHover;
+  }
+  .h5,
+  h5 {
+    font-size: 0.9rem;
+  }
+  
+
+@media (max-width: 480px) {
+    .block-form, .block-inferior {
+        width: 100%;
+         margin: 0px;
+        padding: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .block-form, .block-inferior {
+        width: 70%;
+        margin: 0px 15% 0px 15%;
+        padding: 1rem;
+    }
+  }
+  @media (max-width: 1024px) {
+    .block-form, .block-inferior {
+        width: 50%;
+        margin: 0px 25% 0px 25%;
+        padding: 1rem;
+    }
+  }
+
+@media (min-width: 1200px){
+    .block-form, .block-inferior {
+        width: 30%;
+        margin: 0px 35% 0px 35%;
+        padding: 1rem;
+    }
+}
+ 

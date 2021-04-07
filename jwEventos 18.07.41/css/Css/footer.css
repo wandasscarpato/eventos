@@ -1,0 +1,44 @@
+footer {
+    list-style: none;
+    font-size: 15px;
+    background-image: linear-gradient(#f8dade,#f1c3cd);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    margin: none;
+}
+.gridFooter{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
+.redesSociales {
+    font-size: 1rem;
+    text-align: center;
+}
+.redesSociales i {
+    padding-left: 5px;
+    transition: 1s;
+}
+.redesSociales i:hover{
+    color: #eb6b86;
+    transform: scale(1.5);
+
+}
+
+footer h3 {
+    margin-top: 20px;
+    color: rgb(54, 54, 54);
+    text-align: center;
+}
+footer ul li {
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: rgb(43, 44, 44);
+}
+.ordenFooter {
+    padding: 0;
+}

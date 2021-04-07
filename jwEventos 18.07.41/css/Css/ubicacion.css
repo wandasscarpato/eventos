@@ -1,0 +1,22 @@
+section{
+    text-align: center;
+}
+section p{
+    font-family:'Raleway', sans-serif;
+    font-size: 1rem;
+}
+.covid{
+    margin: 0px auto;
+}
+@media (min-width: 1200px){
+    h3 {
+        font-size: 1rem;
+    }
+}
+ 
+h3 {
+    font-size: 1rem;
+}
+#ubi{
+    margin: 2rem 0px;
+}

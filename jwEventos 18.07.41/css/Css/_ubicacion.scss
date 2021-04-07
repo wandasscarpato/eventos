@@ -1,0 +1,36 @@
+//UBICACION
+section {
+    text-align: center;
+    p {
+      font-family: "Raleway", sans-serif;
+      font-size: $rem;
+    }
+  }
+  .block__iframe {
+    padding: $rem;
+  }
+  
+  a.btn.btn-primary{
+    width: 50%;
+  }
+@media (max-width: 480px) {
+  a.btn.btn-primary{
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  a.btn.btn-primary{
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  a.btn.btn-primary{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px){
+  a.btn.btn-primary{
+    width: 50%;
+  }
+}

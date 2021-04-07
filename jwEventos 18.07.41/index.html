@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/Css/compartido.css">
+        <link rel="stylesheet" href="css/Css/header.css">
+        <link rel="stylesheet" href="css/Css/footer.css">
+        <link rel="stylesheet" href="css/Css/index.css">
+        <script src="https://kit.fontawesome.com/dd0dcbd0c6.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://www.example.com/css/fontawesome/fas-5.14.0-all.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>JW Eventos</title>
+        <meta name="description" content="Salon y planificacion de eventos JW">
+        <meta name="keywords" content="salon de eventos, eventos, planificacion, servicios, sociales, corporativos">    
+        <link rel="shortcut icon" href="./img/logo.png">
+
+    </head>
+
+    <body>
+      <section id="modal">
+        <input type="checkbox" id="cerrar">
+        <label for="cerrar" id="btncerrar" onclick="closeModal()">X</label>
+        <div class="modal" style="z-index: 1;">
+            <div class="contenido">
+                <img src="./img/modal-min.jpg">
+            </div>
+        </div>
+     </section>
+        <header>
+            <div class="bread">
+    
+                <ol class="breadc">
+                  <li>
+                    <a href="#">Inicio</a>
+                  </li>
+                </ol>
+              </div>
+            <section>
+                <a href="index.html">
+                  <img src="./img/logo.png" />
+                </a>
+              </section>
+            <nav>
+                <ul class="multiple">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Eventos</a>
+                    <ul class="multipleN">
+                        <li>
+                            <a href="eventosS.html">Sociales</a>
+                        </li>
+                        <li>
+                            <a href="eventosC.html">Corporativos</a>
+                        </li>
+                    </ul>                    
+                    <li><a href="fotos.html">Galeria de fotos</a></li>
+                    <li><a href="ubicacion.html">Ubicacion</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+              <div id="carouselExampleControls" class="carousel slide slideBos" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/banner1-min.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner2-min.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="covid">
+                <p>
+                  <a class="btn btn-primary" style="background-color: #f1abba; border: none; display: flex; justify-content: center; width: 90%;margin:0px auto;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Protocolo 2021 COVID
+                  </a>
+                </p>
+                <div class="collapse" style="width: 90%; margin: 0px auto; margin-bottom: 2rem;" id="collapseExample">
+                  <div class="card card-body">
+                    <div class="containerGridCovid">
+                        <div><i class="fas fa-people-arrows"></i><p>Reduccion en capacidad de invitados, se permitiran entre 50 y 100.</p></div>
+                        <div><i class="fas fa-pump-medical"></i><p>Gel y articulos de desinfeccion disponibles durante todo el evento.</p></div>
+                    </div>
+                    <div class="containerGridCovid2">
+                        <div><i class="fas fa-virus-slash"></i><p>Se cancela el auto-servicio, el mismo sera remplazado por servicio a mesa.</p></div>
+                        <div><i class="fas fa-user-md"></i><p>Lineas rapidas de servicio medico a disposicion ante cualquier emergenia.</p></div>
+                        <div><i class="fas fa-head-side-mask"></i><p>Personal equipado e hisopado para reducir riesgos de contagios. </p></div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+        <div class="gridEventos">
+            <div class="corp">
+                <a href="eventosC.html"><img src="./img/sociales.png"></a>
+                
+            </div>
+            <div>
+                <a href="eventosS.html"><img src="./img/corporativos.png"></a>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="gridFooter">
+                <div>
+                <a href="eventosS.html">
+                    <h3>Eventos</h3>
+                </a>
+                <ul class="ordenFooter">
+                    <li>Casamiento</li>
+                    <li>15 años</li>
+                    <li>Corporativos</li>
+                    <li>Fin de año</li>
+                    <li>Otros eventos</li>
+                </ul>
+                </div>
+                
+                <div>
+                    <h3>JW</h3>
+                    <ul class="ordenFooter">
+                        <li>
+                            <a href="tel:4445555">Tel: 444-5555</a>
+                        </li>
+                        <li>
+                            <a href="mailto:JW@eventos.org.ar"> Email: jw@eventos.org.ar</a>
+        
+                        </li>
+                        <li>
+                            <a>Direccion: Jeronimo Salguero
+                                <br/>
+                                y Avenida Santa Fe</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <a href="contacto.html">
+                        <h3>Contacto</h3>
+                    </a>
+                    <ul class="ordenFooter">
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="ubicacion.html">Ubicacion</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Redes sociales</h3>
+                    <ul class="ordenFooter">
+                        <li class="redesSociales">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </footer>
+        <script>
+            $('body').css('overflow', 'hidden')
+            </script>
+            <script>
+                function closeModal(){
+                    $('body').css('overflow', 'auto');
+                }
+            </script>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script></body>
+
+</html>

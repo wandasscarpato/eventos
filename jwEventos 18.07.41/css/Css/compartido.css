@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(250, 215, 248, 0.055); 
+    font-family:'Raleway', sans-serif;
+    overflow: auto;
+    margin:0px
+}
+nav .multiple{
+    width: 100%;
+}
+nav ul li, footer ul li{
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+   }
+   
+   strong h2{
+    font-weight: normal;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 3rem;
+    background-image: url(/img/eventos.png);
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.recuadroDerecha{
+    padding: 4rem;
+    width: 20%;
+}
+
+li a:hover{
+    color: black;
+}
+li a:active{
+    color: rgb(255, 255, 255);
+}
+
+.multiple ul {
+    position: absolute;
+    display: none;
+}
+.multiple ul li{
+display: block;
+}
+.multiple li:hover ul{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.767)
+}
+.multiple, .multipleN{
+    list-style: none;
+    margin: -0.6rem;
+    padding: 0;
+    margin-top: 0.3%;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+@media (min-width: 1200px){
+ .h3, h3 {
+     font-size: 1rem; 
+}
+}
+
+.breadc{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px; 
+    background-color: #ee90a483;
+
+}
+.bread{
+    height: 10px;
+}
+.breadc a, .a-error{
+    color: #180e10;
+    text-decoration: none;
+}
+.a-error{
+    margin-left: 2rem;
+}
+#imagen{
+    padding: 2rem 0;
+    width: 40%;
+}
+
+.block-error{
+    display: flex;
+    justify-content: center;
+}
+.block-error--icono{
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+    color:  #ee90a483;
+    padding: 6rem 0;
+}

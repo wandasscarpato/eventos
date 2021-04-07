@@ -1,0 +1,75 @@
+
+.container-superior{
+    text-align: center;
+}
+.container__titulo{
+    padding-top: 1rem;
+}
+.container__parrafo{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 0.9rem;
+}
+.form__botones,input,.form__select, .from__datos-textarea{
+    border: #ee90a465 2px solid;
+    color: #af7c89af;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 95%;
+    padding-bottom: 1rem;
+}
+
+.form-medio,.form__select, .form__botones{
+    font-family:'Raleway', sans-serif;
+    font-size: 1rem;
+}
+.form__datos__ingreso{
+    color: rgba(42, 37, 44, 0.87);
+}
+.form__select{
+    width: 95%;
+}
+.form__botones{
+    width: 49%;
+    display: inline-table;
+}
+.form-medio, .container-inferior{
+    width: 30%;
+    margin: 0px 35% 0px 35%;
+    padding: 1rem;
+}
+
+.container-inferior{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 4rem;
+}
+
+h5{
+    color: #af7c89af
+}
+.container__telefonos, .container__email{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+.container__telefonos-telefono, .container__email-email{
+    line-height: 2rem;
+    color: #ee90a4;
+}
+.form__botones:hover{
+    background-color: #ee90a4;;
+    color: #fff;
+}
+.container__telefonos-telefono:hover{
+    line-height: 2rem;
+    color: #7c3746;
+}
+input:hover, textarea:hover{
+    background-color: #ee90a4;;
+    color: #fff;
+}
+.h5, h5 {
+    font-size: 0.9rem;
+}
